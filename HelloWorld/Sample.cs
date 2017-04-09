@@ -21,6 +21,11 @@ namespace HelloWorld
             return (x + y);
         }
 
+        public double DivideXbyY(int x, int y)
+        {
+            return (x / y);
+        }
+
     }
 
 
