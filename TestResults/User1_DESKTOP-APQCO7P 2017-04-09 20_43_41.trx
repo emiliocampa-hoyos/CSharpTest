@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e112ea7b-4387-42d1-953c-d72b4ef258c1" name="User1@DESKTOP-APQCO7P 2017-04-09 20:43:41" runUser="DESKTOP-APQCO7P\User1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ec5af968-d498-4b0d-8b52-5fab2a8f646d">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="User1_DESKTOP-APQCO7P 2017-04-09 20_43_41" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-04-09T20:43:41.9279969-05:00" queuing="2017-04-09T20:43:42.2678800-05:00" start="2017-04-09T20:43:42.3309229-05:00" finish="2017-04-09T20:43:42.7825992-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test5plus4Equals9" storage="helloworldtests/bin/debug/helloworldtests.dll" id="c2ab3633-5a51-ff4d-ac4c-acbd049fc551">
+      <Execution id="749186a9-4a78-4bc5-a1da-b142af926164" />
+      <TestMethod codeBase="C:/Users/User1/Documents/Visual Studio 2017/Projects/HelloWorld/HelloWorldTests/bin/debug/HelloWorldTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloWorldTests.UnitTest1, HelloWorldTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test5plus4Equals9" />
+    </UnitTest>
+    <UnitTest name="Test3DividedBy3Equals1" storage="helloworldtests/bin/debug/helloworldtests.dll" id="91ebfd2c-674a-6f1b-ae92-74916ffa69e2">
+      <Execution id="808d67c4-d175-47c5-96dd-d5bcb5a9f6d1" />
+      <TestMethod codeBase="C:/Users/User1/Documents/Visual Studio 2017/Projects/HelloWorld/HelloWorldTests/bin/debug/HelloWorldTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloWorldTests.UnitTest1, HelloWorldTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test3DividedBy3Equals1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="91ebfd2c-674a-6f1b-ae92-74916ffa69e2" executionId="808d67c4-d175-47c5-96dd-d5bcb5a9f6d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2ab3633-5a51-ff4d-ac4c-acbd049fc551" executionId="749186a9-4a78-4bc5-a1da-b142af926164" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="808d67c4-d175-47c5-96dd-d5bcb5a9f6d1" testId="91ebfd2c-674a-6f1b-ae92-74916ffa69e2" testName="Test3DividedBy3Equals1" computerName="DESKTOP-APQCO7P" duration="00:00:00.0151176" startTime="2017-04-09T20:43:42.3719537-05:00" endTime="2017-04-09T20:43:42.7321908-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="808d67c4-d175-47c5-96dd-d5bcb5a9f6d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="749186a9-4a78-4bc5-a1da-b142af926164" testId="c2ab3633-5a51-ff4d-ac4c-acbd049fc551" testName="Test5plus4Equals9" computerName="DESKTOP-APQCO7P" duration="00:00:00.0016136" startTime="2017-04-09T20:43:42.7371965-05:00" endTime="2017-04-09T20:43:42.7431992-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="749186a9-4a78-4bc5-a1da-b142af926164">
+    </UnitTestResult>
+  </Results>
+</TestRun>

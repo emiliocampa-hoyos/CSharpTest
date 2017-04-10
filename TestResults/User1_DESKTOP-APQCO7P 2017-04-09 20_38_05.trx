@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="567c326c-45d9-4652-98ff-8dfac82ff48d" name="User1@DESKTOP-APQCO7P 2017-04-09 20:38:05" runUser="DESKTOP-APQCO7P\User1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c1c4888c-8f06-4a8d-9cb8-6f0deb4db480">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="User1_DESKTOP-APQCO7P 2017-04-09 20_38_05" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-04-09T20:38:05.1537660-05:00" queuing="2017-04-09T20:38:05.4981830-05:00" start="2017-04-09T20:38:05.5622109-05:00" finish="2017-04-09T20:38:05.9472135-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="helloworldtests/bin/debug/helloworldtests.dll" id="5e31dd07-94a6-154a-c432-42c66e0a0486">
+      <Execution id="729bc1b7-66f6-45b4-88c7-9e84a5210450" />
+      <TestMethod codeBase="C:/Users/User1/Documents/Visual Studio 2017/Projects/HelloWorld/HelloWorldTests/bin/debug/HelloWorldTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloWorldTests.UnitTest1, HelloWorldTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5e31dd07-94a6-154a-c432-42c66e0a0486" executionId="729bc1b7-66f6-45b4-88c7-9e84a5210450" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="729bc1b7-66f6-45b4-88c7-9e84a5210450" testId="5e31dd07-94a6-154a-c432-42c66e0a0486" testName="TestMethod1" computerName="DESKTOP-APQCO7P" duration="00:00:00.0254128" startTime="2017-04-09T20:38:05.6032577-05:00" endTime="2017-04-09T20:38:05.9021829-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="729bc1b7-66f6-45b4-88c7-9e84a5210450">
+    </UnitTestResult>
+  </Results>
+</TestRun>
